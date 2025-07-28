@@ -425,6 +425,19 @@
             }
         }
     },
+    "falconImageAnalyzer": {
+        "type": "object",
+        "properties": {
+            "namespace": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "default": "falcon-image-analyzer",
+                "description": "The namespace of Falcon Image Analyzer (IAR Image Assessment at Runtime)."
+            }
+        }
+    },
     "oneOf": [
         {
             "properties": {

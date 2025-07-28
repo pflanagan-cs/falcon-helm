@@ -104,6 +104,12 @@ clusterVisibility:
 # Important Note: if the clusterName is detected by the agent, this value will be overwritten
 clusterName: ""
 
+# Falcon Image Analyzer (IAR Image Assessment at Runtime) namespace
+# This variable can be used to override the Falcon Image Analyzer namespace
+# from its default value of "falcon-image-analyzer"
+falconImageAnalyzer:
+  namespace: falcon-image-analyzer
+
 # Annotations to apply to the webhook deployment
 annotations: {}
 
